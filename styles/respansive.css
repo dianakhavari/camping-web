@@ -1,0 +1,89 @@
+@media (min-width:576px){
+
+}
+@media (min-width:768px){
+.conections
+{
+    flex-direction: row;
+    text-align: left;
+    align-items: center;
+}
+.conectionscontent
+{
+    width: 60%;
+    padding-right: 2rem;
+}
+.conectionsBanner
+{
+    width: 40%;
+}
+.conections::before
+{
+    width: auto;
+    height: auto;
+    top: -5rem;
+    left: -40rem;
+    background-size: auto;
+    background-position: center left;
+}
+}
+@media (min-width:992px){
+    .desktopMenu{
+        display: flex;
+    }
+    .desktopNavLinks{
+        display: block;
+    }
+    .navBtn
+    {
+        display: none;
+    }
+    .headerContentDescription
+    {
+        max-width: 50rem;
+    }
+    .conectionscontent{
+        padding-right: 4rem;
+    }
+    .conectionsTitle{
+        margin-bottom: 0;
+    }
+    .footerAplication
+    {
+        display: block;
+    }
+    .footerAplicationMobile
+    {
+        display: none;
+    }
+    .footerContainer
+    {
+        display: flex;
+    }
+    .scroll{
+        left: auto;
+    }
+}
+@media (min-width:1200px){
+    .conectionscontent{
+        width: 60rem;
+    }
+    .conections
+    {
+        justify-content: space-between;
+    }
+    .conectionsBanner{
+     width: 42rem;
+    }
+    .footerContainer
+    {
+        justify-content: space-between;
+    }
+}
+@media (min-width:1400px){
+    .conections
+    {
+        padding: 3rem 6rem;
+    }
+    
+}

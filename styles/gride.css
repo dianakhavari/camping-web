@@ -1,0 +1,45 @@
+.container
+{
+width: 100%;
+padding: 0 1.5rem;
+margin: 0 auto;
+/* background-color:red ; */
+/* min-width: none; */
+}
+  @media (min-width:576px) {
+      .container{
+        width:54rem ;
+      }  
+    }
+  
+    @media (min-width:768px) {
+      .container{
+        width:72rem ;
+      }  
+    }
+  
+  
+    @media (min-width:992px) {
+      .container{
+        width: 96rem;
+      } 
+      .conections::before{
+        left: -30rem;
+        top: -10rem;
+      } 
+    }
+  
+    @media (min-width:1200px) {
+      .container{
+        width:114rem;
+      } 
+      .conections::before{
+        top: -15rem;
+        left: -15rem;
+      } 
+    }
+    @media (min-width:1400px) {
+        .container{
+          width: 137rem;
+        }  
+      }
